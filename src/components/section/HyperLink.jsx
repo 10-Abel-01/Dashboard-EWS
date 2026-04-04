@@ -13,10 +13,6 @@ const HyperLink = () => {
       <Link to="/dashboard" className="relative z-10 inline-block">
         <button className="bg-gray-950 text-white px-10 py-4 rounded-2xl font-bold text-sm shadow-2xl shadow-gray-200 hover:bg-emerald-600 transition-all active:scale-95 group flex items-center gap-2.5">
           Launch Live Dashboard
-          <Cpu
-            size={16}
-            className="text-gray-500 group-hover:text-white transition-colors"
-          />
         </button>
       </Link>
     </div>

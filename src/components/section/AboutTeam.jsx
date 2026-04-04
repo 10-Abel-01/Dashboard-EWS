@@ -1,5 +1,13 @@
 import React from "react";
-import { Users, Cpu, ExternalLink } from "lucide-react";
+import {
+  CodeXml,
+  PenTool,
+  Shield,
+  FileText,
+  Users,
+  Cpu,
+  ExternalLink,
+} from "lucide-react";
 import Abel from "../../assets/abel.png";
 import Chandra from "../../assets/chandra.png";
 import Raihan from "../../assets/raihan.png";
@@ -25,26 +33,26 @@ const AboutTeam = () => {
         {/* Abel */}
         <div className="flex flex-col md:flex-row bg-white border border-gray-100 rounded-[2.5rem] overflow-hidden hover:shadow-2xl hover:shadow-emerald-50 transition-all group min-h-[350px]">
           <div className="flex-1 p-10 flex flex-col justify-center">
-            <div className="mb-4">
+            <div className="row mb-4">
               <span className="text-[10px] font-black text-emerald-600 uppercase tracking-[0.3em] font-mono bg-emerald-50 px-3 py-1 rounded-full">
                 Lead Developer
               </span>
             </div>
             <h3 className="text-4xl font-black mb-2 text-gray-950 group-hover:text-emerald-600 transition-colors tracking-tighter">
-              Abel Saferyan
+              Abel <br /> Saferyan
             </h3>
-            <p className="text-gray-500 text-lg font-medium mb-6">
-              Pro-gay-mmer
-            </p>
+            <div className="flex flex-row md:flex-row gap-1 mt-1">
+              <CodeXml className="text-blue-500 mt-1" />
+              <p className="row text-gray-500 text-lg font-medium mb-6 whitespace-nowrap">
+                Fullstack Developer
+              </p>
+            </div>
             <p className="text-gray-400 text-sm leading-relaxed mb-8 max-w-md">
               Membangun sistem (end-to-end) dari integrasi hardware Arduino
               (C++), pemrosesan data Python, hingga visualisasi real-time di
               React.
             </p>
             <div className="flex gap-4">
-              <button className="p-3 bg-gray-50 rounded-2xl text-gray-400 hover:bg-emerald-50 hover:text-emerald-600 transition-all border border-transparent hover:border-emerald-100">
-                <Cpu size={20} />
-              </button>
               <a href="https://github.com/10-Abel-01/">
                 <button className="p-3 bg-gray-50 rounded-2xl text-gray-400 hover:bg-emerald-50 hover:text-emerald-600 transition-all border border-transparent hover:border-emerald-100">
                   <ExternalLink size={20} />
@@ -74,18 +82,17 @@ const AboutTeam = () => {
             <h3 className="text-4xl font-black mb-2 text-gray-950 group-hover:text-emerald-600 transition-colors tracking-tighter">
               Hidayat Chandra
             </h3>
-            <p className="text-gray-500 text-lg font-medium mb-6">
-              Kebanyakan Ngide
-            </p>
+            <div className="flex flex-row md:flex-row gap-1 mt-1">
+              <Cpu className="text-orange-500 mt-1" />
+              <p className="row text-gray-500 text-lg font-medium mb-6 whitespace-nowrap">
+                Mechanical Engineer
+              </p>
+            </div>
             <p className="text-gray-400 text-sm leading-relaxed mb-8 max-w-md">
-              Membangun sistem (end-to-end) dari integrasi hardware Arduino
-              (C++), pemrosesan data Python, hingga visualisasi real-time di
-              React.
+              Merancang struktur fisik dan mekanik pergerakan panel surya untuk
+              akurasi pelacakan matahari.
             </p>
             <div className="flex gap-4">
-              <button className="p-3 bg-gray-50 rounded-2xl text-gray-400 hover:bg-emerald-50 hover:text-emerald-600 transition-all border border-transparent hover:border-emerald-100">
-                <Cpu size={20} />
-              </button>
               <a href="https://www.instagram.com/h.chandraaa_">
                 <button className="p-3 bg-gray-50 rounded-2xl text-gray-400 hover:bg-emerald-50 hover:text-emerald-600 transition-all border border-transparent hover:border-emerald-100">
                   <ExternalLink size={20} />
@@ -115,18 +122,17 @@ const AboutTeam = () => {
             <h3 className="text-4xl font-black mb-2 text-gray-950 group-hover:text-emerald-600 transition-colors tracking-tighter">
               Raihan Lundy Arista
             </h3>
-            <p className="text-gray-500 text-lg font-medium mb-6">
-              Pendongeng Handal
-            </p>
+            <div className="flex flex-row md:flex-row gap-1 mt-1">
+              <Shield className="text-emerald-500 mt-1" />
+              <p className="row text-gray-500 text-lg font-medium mb-6 whitespace-nowrap">
+                QA (Quality Assurance)
+              </p>
+            </div>
             <p className="text-gray-400 text-sm leading-relaxed mb-8 max-w-md">
-              Membangun sistem (end-to-end) dari integrasi hardware Arduino
-              (C++), pemrosesan data Python, hingga visualisasi real-time di
-              React.
+              Melakukan pengujian stabilitas sistem dan validasi data sensor
+              untuk memastikan performa alat yang optimal.
             </p>
             <div className="flex gap-4">
-              <button className="p-3 bg-gray-50 rounded-2xl text-gray-400 hover:bg-emerald-50 hover:text-emerald-600 transition-all border border-transparent hover:border-emerald-100">
-                <Cpu size={20} />
-              </button>
               <a href="https://www.instagram.com/raihanlundi04">
                 <button className="p-3 bg-gray-50 rounded-2xl text-gray-400 hover:bg-emerald-50 hover:text-emerald-600 transition-all border border-transparent hover:border-emerald-100">
                   <ExternalLink size={20} />
@@ -156,18 +162,17 @@ const AboutTeam = () => {
             <h3 className="text-4xl font-black mb-2 text-gray-950 group-hover:text-emerald-600 transition-colors tracking-tighter">
               Hamad Syaid
             </h3>
-            <p className="text-gray-500 text-lg font-medium mb-6">
-              Pemilik Ilmu Hitam
-            </p>
+            <div className="flex flex-row md:flex-row mt-1 gap-1">
+              <FileText className="text-rose-500 mt-1" /> 
+              <p className="row text-gray-500 text-lg font-medium mb-6 whitespace-nowrap">
+                Documenter
+              </p>
+            </div>
             <p className="text-gray-400 text-sm leading-relaxed mb-8 max-w-md">
-              Membangun sistem (end-to-end) dari integrasi hardware Arduino
-              (C++), pemrosesan data Python, hingga visualisasi real-time di
-              React.
+              Menyusun dokumentasi teknis dan laporan pengembangan proyek secara
+              sistematis dan profesional.
             </p>
             <div className="flex gap-4">
-              <button className="p-3 bg-gray-50 rounded-2xl text-gray-400 hover:bg-emerald-50 hover:text-emerald-600 transition-all border border-transparent hover:border-emerald-100">
-                <Cpu size={20} />
-              </button>
               <a href="https://www.instagram.com/hmd_sahid?igsh=MWk5eTRqbDd3eThjbw%3D%3D&utm_source=qr">
                 <button className="p-3 bg-gray-50 rounded-2xl text-gray-400 hover:bg-emerald-50 hover:text-emerald-600 transition-all border border-transparent hover:border-emerald-100">
                   <ExternalLink size={20} />
@@ -197,18 +202,18 @@ const AboutTeam = () => {
             <h3 className="text-4xl font-black mb-2 text-gray-950 group-hover:text-emerald-600 transition-colors tracking-tighter">
               Muhammad Riski Kurniawan
             </h3>
-            <p className="text-gray-500 text-lg font-medium mb-6">
-              Fullstack GPT
-            </p>
+            <div className="flex flex-row md:flex-row gap-1 mt-1">
+              <PenTool className="text-purple-500 mt-1" />
+              <p className="row text-gray-500 text-lg font-medium mb-6 whitespace-nowrap">
+                UI/UX & Circuit Designer
+              </p>
+            </div>
             <p className="text-gray-400 text-sm leading-relaxed mb-8 max-w-md">
-              Membangun sistem (end-to-end) dari integrasi hardware Arduino
-              (C++), pemrosesan data Python, hingga visualisasi real-time di
-              React.
+              Bertanggung jawab atas estetika visual dashboard serta perancangan
+              skema sirkuit Arduino. Memastikan integrasi komponen elektronik
+              berjalan efisien dan representatif secara visual.
             </p>
             <div className="flex gap-4">
-              <button className="p-3 bg-gray-50 rounded-2xl text-gray-400 hover:bg-emerald-50 hover:text-emerald-600 transition-all border border-transparent hover:border-emerald-100">
-                <Cpu size={20} />
-              </button>
               <a href="https://www.instagram.com/jhonnnnns_?igsh=MTNpc3J4YnRjZG51Mg==">
                 <button className="p-3 bg-gray-50 rounded-2xl text-gray-400 hover:bg-emerald-50 hover:text-emerald-600 transition-all border border-transparent hover:border-emerald-100">
                   <ExternalLink size={20} />
@@ -226,7 +231,6 @@ const AboutTeam = () => {
             />
           </div>
         </div>
-
       </div>
     </section>
   );
