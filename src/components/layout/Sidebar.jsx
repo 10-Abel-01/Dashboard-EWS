@@ -33,7 +33,7 @@ const Sidebar = ({ isCollapsed, setIsCollapsed }) => {
             <span className="text-white font-bold text-xs">S</span>
           </div>
           <h1 className="text-lg font-extrabold tracking-tighter text-gray-900">
-            SOLAR<span className="text-orange-600"></span>
+            SOLAR<span className="text-orange-600"> MONITOR</span>
           </h1>
         </div>
         <button
@@ -57,9 +57,9 @@ const Sidebar = ({ isCollapsed, setIsCollapsed }) => {
               <motion.h1
                 initial={{ opacity: 0, x: -10 }}
                 animate={{ opacity: 1, x: 0 }}
-                className="text-xl font-extrabold tracking-tighter text-gray-900 whitespace-nowrap"
+                className="text-xl font-extrabold text-gray-900 whitespace-nowrap"
               >
-                SOLAR<span className="text-orange-600"></span>
+                SOLAR<span className="text-orange-600"> MONITOR</span>
               </motion.h1>
             )}
           </div>

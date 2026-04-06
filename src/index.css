@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 @import "tailwindcss";
 
+
 @theme {
+  --font-sans: 'Raleway', sans-serif;
   @keyframes marquee {
     from { transform: translateX(0); }
     to { transform: translateX(-50%); }
@@ -8,6 +11,9 @@
 }
 html {
   scroll-behavior: smooth;
+}
+body {
+  @apply font-sans;
 }
 .animate-marquee {
   display: flex;
