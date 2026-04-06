@@ -44,7 +44,7 @@ const AboutTeam = () => {
             <div className="flex flex-row md:flex-row gap-1 mt-1">
               <CodeXml className="text-blue-500 mt-1" />
               <p className="row text-gray-500 text-lg font-medium mb-6 whitespace-nowrap">
-                Fullstack Developer
+                Programmer
               </p>
             </div>
             <p className="text-gray-400 text-sm leading-relaxed mb-8 max-w-md">
