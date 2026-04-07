@@ -34,11 +34,11 @@ const AboutTeam = () => {
         <div className="flex flex-col md:flex-row bg-white border border-gray-100 rounded-[2.5rem] overflow-hidden hover:shadow-2xl hover:shadow-emerald-50 transition-all group min-h-[350px]">
           <div className="flex-1 p-10 flex flex-col justify-center">
             <div className="row mb-4">
-              <span className="text-[10px] font-black text-emerald-600 uppercase tracking-[0.3em] font-mono bg-emerald-50 px-3 py-1 rounded-full">
+              <span className="text-[10px] font-black text-gray-600 uppercase tracking-[0.3em] font-mono bg-gray-50 px-3 py-1 rounded-full">
                 Lead Developer
               </span>
             </div>
-            <h3 className="text-4xl font-black mb-2 text-gray-950 group-hover:text-emerald-600 transition-colors tracking-tighter">
+            <h3 className="text-4xl font-black mb-2 text-gray-950 group-hover:text-gray-600 transition-colors tracking-tighter">
               Abel <br /> Saferyan
             </h3>
             <div className="flex flex-row md:flex-row gap-1 mt-1">
@@ -75,11 +75,11 @@ const AboutTeam = () => {
         <div className="flex flex-col md:flex-row bg-white border border-gray-100 rounded-[2.5rem] overflow-hidden hover:shadow-2xl hover:shadow-emerald-50 transition-all group min-h-[350px]">
           <div className="flex-1 p-10 flex flex-col justify-center">
             <div className="mb-4">
-              <span className="text-[10px] font-black text-emerald-600 uppercase tracking-[0.3em] font-mono bg-emerald-50 px-3 py-1 rounded-full">
+              <span className="text-[10px] font-black text-gray-600 uppercase tracking-[0.3em] font-mono bg-gray-50 px-3 py-1 rounded-full">
                 Lead Architect
               </span>
             </div>
-            <h3 className="text-4xl font-black mb-2 text-gray-950 group-hover:text-emerald-600 transition-colors tracking-tighter">
+            <h3 className="text-4xl font-black mb-2 text-gray-950 group-hover:text-gray-600 transition-colors tracking-tighter">
               Hidayat Chandra
             </h3>
             <div className="flex flex-row md:flex-row gap-1 mt-1">
@@ -115,11 +115,11 @@ const AboutTeam = () => {
         <div className="flex flex-col md:flex-row bg-white border border-gray-100 rounded-[2.5rem] overflow-hidden hover:shadow-2xl hover:shadow-emerald-50 transition-all group min-h-[350px]">
           <div className="flex-1 p-10 flex flex-col justify-center">
             <div className="mb-4">
-              <span className="text-[10px] font-black text-emerald-600 uppercase tracking-[0.3em] font-mono bg-emerald-50 px-3 py-1 rounded-full">
+              <span className="text-[10px] font-black text-gray-600 uppercase tracking-[0.3em] font-mono bg-gray-50 px-3 py-1 rounded-full">
                 Lead Architect
               </span>
             </div>
-            <h3 className="text-4xl font-black mb-2 text-gray-950 group-hover:text-emerald-600 transition-colors tracking-tighter">
+            <h3 className="text-4xl font-black mb-2 text-gray-950 group-hover:text-gray-600 transition-colors tracking-tighter">
               Raihan Lundy Arista
             </h3>
             <div className="flex flex-row md:flex-row gap-1 mt-1">
@@ -155,11 +155,11 @@ const AboutTeam = () => {
         <div className="flex flex-col md:flex-row bg-white border border-gray-100 rounded-[2.5rem] overflow-hidden hover:shadow-2xl hover:shadow-emerald-50 transition-all group min-h-[350px]">
           <div className="flex-1 p-10 flex flex-col justify-center">
             <div className="mb-4">
-              <span className="text-[10px] font-black text-emerald-600 uppercase tracking-[0.3em] font-mono bg-emerald-50 px-3 py-1 rounded-full">
+              <span className="text-[10px] font-black text-gray-600 uppercase tracking-[0.3em] font-mono bg-gray-50 px-3 py-1 rounded-full">
                 Lead Architect
               </span>
             </div>
-            <h3 className="text-4xl font-black mb-2 text-gray-950 group-hover:text-emerald-600 transition-colors tracking-tighter">
+            <h3 className="text-4xl font-black mb-2 text-gray-950 group-hover:text-gray-600 transition-colors tracking-tighter">
               Hamad Syaid
             </h3>
             <div className="flex flex-row md:flex-row mt-1 gap-1">
@@ -195,11 +195,11 @@ const AboutTeam = () => {
         <div className="flex flex-col md:flex-row bg-white border border-gray-100 rounded-[2.5rem] overflow-hidden hover:shadow-2xl hover:shadow-emerald-50 transition-all group min-h-[350px]">
           <div className="flex-1 p-10 flex flex-col justify-center">
             <div className="mb-4">
-              <span className="text-[10px] font-black text-emerald-600 uppercase tracking-[0.3em] font-mono bg-emerald-50 px-3 py-1 rounded-full">
+              <span className="text-[10px] font-black text-gray-600 uppercase tracking-[0.3em] font-mono bg-gray-50 px-3 py-1 rounded-full">
                 Lead Architect
               </span>
             </div>
-            <h3 className="text-4xl font-black mb-2 text-gray-950 group-hover:text-emerald-600 transition-colors tracking-tighter">
+            <h3 className="text-4xl font-black mb-2 text-gray-950 group-hover:text-gray-600 transition-colors tracking-tighter">
               Muhammad Riski Kurniawan
             </h3>
             <div className="flex flex-row md:flex-row gap-1 mt-1">
