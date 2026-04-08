@@ -26,14 +26,10 @@ const Sidebar = ({ isCollapsed, setIsCollapsed }) => {
   useEffect(() => {
     setIsMobileOpen(false);
   }, [location]);
-
   return (
     <>
-      <div className="lg:hidden fixed top-0 left-0 right-0 h-16 bg-white/80 backdrop-blur-md border-b border-gray-100 px-4 flex items-center justify-between z-50">
+      <div className="w-full overflow-hidden lg:hidden fixed top-0 left-0 right-0 h-16 bg-white/80 backdrop-blur-md border-b border-gray-100 px-4 flex items-center justify-between z-50">
         <div className="flex items-center gap-2">
-          <div className="w-8 h-8 bg-orange-600 rounded-lg flex items-center justify-center shadow-lg shadow-orange-200">
-            <span className="text-white font-bold text-xs">S</span>
-          </div>
           <h1 className="text-lg font-extrabold tracking-tighter text-gray-900">
             SOLAR<span className="text-orange-600"> MONITOR</span>
           </h1>
@@ -87,14 +83,15 @@ const Sidebar = ({ isCollapsed, setIsCollapsed }) => {
                 >
                   <item.icon size={20} className="shrink-0" />
                   {!isCollapsed && (
-                    <span className="text-[13px] whitespace-nowrap">{item.name}</span>
+                    <span className="text-[13px] whitespace-nowrap">
+                      {item.name}
+                    </span>
                   )}
                 </NavLink>
               ))}
             </div>
           ))}
         </nav>
-
       </motion.aside>
 
       {/* Backdrop Mobile */}
