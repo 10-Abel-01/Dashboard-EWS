@@ -5,6 +5,7 @@ import MainLayout from "./components/MainLayout";
 import Dashboard from "./pages/Dashboard";
 import Analytics from "./pages/Analytics";
 import Diagnostics from "./pages/Diagnostics";
+import Documentation from "./pages/Documentation";
 import MonitorLayout from "./components/layout/MonitorLayout";
 
 import "./App.css";
@@ -20,6 +21,7 @@ function App() {
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/analytics" element={<Analytics />} />
           <Route path="/diagnostics" element={<Diagnostics />} />
+          <Route path="/documentation" element={<Documentation />} />
         </Route>
       </Routes>
     </BrowserRouter>
