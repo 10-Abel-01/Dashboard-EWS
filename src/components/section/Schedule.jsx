@@ -39,7 +39,7 @@ const Schedule = () => {
     <section id="schedule" className="max-w-6xl mx-auto px-6 py-24">
       <div className="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-4">
         <div className="max-w-2xl">
-          <span className="text-gray-600 font-mono font-bold tracking-widest uppercase text-xs bg-emerald-50 px-3 py-1 rounded-full">
+          <span className="text-gray-600 font-mono font-bold tracking-widest uppercase text-xs bg-gray-50 px-3 py-1 rounded-full">
             Time-Based Management
           </span>
           <h2 className="text-4xl font-black text-gray-950 mt-4 mb-2">
@@ -75,7 +75,7 @@ const Schedule = () => {
                 <h3 className="text-2xl font-black text-gray-950">
                   {item.session}
                 </h3>
-                <p className="text-emerald-600 font-bold font-mono">
+                <p className="text-gray-600 font-bold font-mono">
                   {item.time}
                 </p>
               </div>
