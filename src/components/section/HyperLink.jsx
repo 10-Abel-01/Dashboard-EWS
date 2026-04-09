@@ -11,7 +11,7 @@ const HyperLink = () => {
       <div className="absolute bottom-10 left-1/2 -translate-x-1/2 w-64 h-64 bg-emerald-50 rounded-full blur-[100px] opacity-60" />
 
       <Link to="/dashboard" className="relative z-10 inline-block">
-        <button className="bg-gray-950 text-white px-10 py-4 rounded-2xl font-bold text-sm shadow-2xl shadow-gray-200 hover:bg-emerald-600 transition-all active:scale-95 group flex items-center gap-2.5">
+        <button className="bg-gray-950 text-white px-10 py-4 rounded-2xl font-bold text-sm shadow-2xl shadow-gray-200 hover:bg-gray-600 transition-all active:scale-95 group flex items-center gap-2.5">
           Go to Dashboard
         </button>
       </Link>
