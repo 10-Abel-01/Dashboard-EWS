@@ -10,8 +10,8 @@ const Schedule = () => {
       activity: "Charging & System Power",
       status: "Optimal Absorbtion",
       icon: <Sunrise className="text-amber-400" size={32} />,
-      color: "border-amber-200",
-      bg: "bg-amber-50/50",
+      color: "border-orange-200",
+      bg: "bg-orange-50/50",
     },
     {
       session: "Sesi Siang",
@@ -30,8 +30,8 @@ const Schedule = () => {
       activity: "Maintenance Charging",
       status: "Stable Output",
       icon: <Sunset className="text-rose-500" size={32} />,
-      color: "border-rose-200",
-      bg: "bg-rose-50/50",
+      color: "border-orange-200",
+      bg: "bg-orange-50/50",
     },
   ];
 

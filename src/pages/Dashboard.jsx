@@ -6,7 +6,6 @@ import MLforecast from "../components/dashboard/MLforecast";
 import PowerChart from "../components/dashboard/PowerChart";
 import BatteryGrid from "../components/dashboard/BatteryGrid";
 
-// import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
 
 const Dashboard = () => {
   const [isCollapsed, setIsCollapsed] = useState(false);
@@ -18,6 +17,7 @@ const Dashboard = () => {
           lg:mt-0`}
       >
         <div className="flex flex-col gap-y-4">
+          {/* sesi dashboard */}
           <StatCards />
           <MLforecast />
           <BatteryGrid />
