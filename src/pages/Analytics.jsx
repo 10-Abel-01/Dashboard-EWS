@@ -1,8 +1,26 @@
 import React from "react";
+import { useState } from "react";
+
+import Header from "../components/analytics/Header";
+import StatsOverview from "../components/analytics/StatsOverview";
 
 const Analytics = () => {
-    return (
-        <h1 className="text-center text-2xl font-bold">Selamat datang di Analisa!</h1>
-    );
+    const [isCollapsed, setIsCollapsed] = useState(false);
+  return (
+    
+    <div className="flex min-h-screen bg-gray-100">
+      <main
+        className={`flex-1 transition-all duration-300 
+          ${isCollapsed ? "lg:ml-20" : "lg:ml-64"}
+          lg:mt-0`}
+      >
+        <div className="flex flex-col gap-y-4 space-y-8 pb-10">
+            {/* sesi analytics */}
+            <Header />
+            <StatsOverview />
+        </div>
+      </main>
+    </div>
+  );
 };
 export default Analytics;
